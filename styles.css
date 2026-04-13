@@ -119,6 +119,15 @@ tbody td:nth-child(2) {
     margin-top: 1.5rem;
   }
 
+  .table-card {
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+
+  table {
+    min-width: 720px;
+  }
+
   thead th,
   tbody td {
     padding: 0.8rem 0.75rem;
