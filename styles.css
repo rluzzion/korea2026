@@ -113,6 +113,17 @@ tbody td:nth-child(2) {
   font-weight: 600;
 }
 
+tbody td select {
+  width: 100%;
+  max-width: 320px;
+  padding: 0.45rem 0.55rem;
+  border: 1px solid var(--surface-strong);
+  border-radius: 8px;
+  color: var(--text-primary);
+  background: rgba(8, 14, 27, 0.9);
+  font: inherit;
+}
+
 @media (max-width: 860px) {
   .page-wrap {
     width: min(96vw, 1200px);
